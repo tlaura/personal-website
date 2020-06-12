@@ -1,14 +1,12 @@
 <template>
   <div class="about-container">
     <div class="half-container green">
-      <h1>About.</h1>
+      <h1>About me</h1>
       <div class="about-nav">
         <Nav color="#e0ebe8"></Nav>
       </div>
     </div>
-    <div class="half-container">
-      <h1>About2</h1>
-    </div>
+    <div class="half-container"></div>
   </div>
 </template>
 

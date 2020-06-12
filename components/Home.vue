@@ -41,7 +41,7 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style>
 .home-nav {
   display: block;
   position: absolute;
@@ -71,6 +71,10 @@ h1 {
 }
 .text > h4 {
   text-align: left;
+}
+
+.social-logo {
+  z-index: 10;
 }
 
 .social-logo > svg {
