@@ -1,64 +1,99 @@
 <template>
   <div>
-    <h1>Hi, I'm Laura.</h1>
-    <nav class="main-nav">
-      <ul>
-        <li>
-          <a class="underlined-white" href="#">About</a>
-        </li>
-        <li>
-          <a class="underlined-white" href="#">Portfolio</a>
-        </li>
-        <li>
-          <a class="underlined-white" href="#">Contact</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="social-container">
+      <div class="social-logo linkedin">
+        <fa :icon="faLinkedin" />
+      </div>
+      <div class="social-logo github">
+        <fa :icon="faGithub" />
+      </div>
+    </div>
+    <div class="home-container">
+      <div class="text">
+        <h1>Hi, I'm Laura,</h1>
+        <h4>
+          a Full-Stack Software Engineer.
+        </h4>
+      </div>
+    </div>
+    <div class="home-nav">
+      <Nav color="#45b29a"></Nav>
+    </div>
   </div>
 </template>
-<style>
-h1 {
-  font-weight: 700;
-  font-size: 80px;
-  margin-bottom: 50px;
-  /* color: #45b29a; */
+
+<script>
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import Nav from '~/components/Nav'
+
+export default {
+  components: {
+    Nav
+  },
+  computed: {
+    faLinkedin() {
+      return faLinkedin
+    },
+    faGithub() {
+      return faGithub
+    }
+  }
 }
-.main-nav {
+</script>
+<style scoped>
+.home-nav {
   display: block;
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
 }
-ul {
-  list-style: none;
-  padding: 36px 0;
-  text-align: center;
-}
-.main-nav ul li {
-  display: inline;
-  font-size: 20px;
+
+h1 {
+  font-weight: 700;
+  font-size: 80px;
+  margin-bottom: 10px;
+  /* color: #45b29a; */
 }
 
-.main-nav ul li:before {
-  content: '/';
-  padding: 0 12px 0 9px;
+.home-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 650px;
+  margin-bottom: 10vh;
+}
+.text > h4 {
+  text-align: left;
 }
 
-.main-nav ul li:first-child:before {
-  display: none;
-}
-
-.main-nav ul li a {
-  color: inherit;
-  text-decoration: none;
-  text-transform: uppercase;
+.social-logo > svg {
+  font-size: 3.5rem;
   cursor: pointer;
+  margin-left: 1.5rem;
+  transition: 1.5;
 }
 
-.main-nav ul li a:hover {
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid white;
+.social-logo > svg:hover {
+  font-size: 3.8rem;
+}
+
+.social-logo {
+  position: fixed;
+  top: 1rem;
+  display: flex;
+}
+.github {
+  right: 1rem;
+}
+.linkedin {
+  right: 6rem;
 }
 
 @keyframes appear {
