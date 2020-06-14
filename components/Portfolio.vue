@@ -1,11 +1,19 @@
 <template>
-  <div>
+  <div class="main-container">
     <div class="portfolio-header">
       <h1>Portfolio</h1>
     </div>
     <div class="portfolio-container">
       <div class="portfolio-content">
         First Project
+        <div>
+          adlihfawfdjkns
+        </div>
+        <div>
+          dfabkwelfndksfsadfln Having graduated from the University of
+          Birmingham, I then worked in client facing roles in finance and
+          consulting out of New York.
+        </div>
       </div>
       <div class="portfolio-content">
         Second project
@@ -27,13 +35,18 @@ export default {
 }
 </script>
 <style scoped>
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+}
+
 .portfolio-nav {
   display: block;
   position: relative;
   left: 0;
   right: 0;
   bottom: 0;
-  padding-top: 4rem;
 }
 
 h1 {
@@ -43,24 +56,25 @@ h1 {
 }
 
 .portfolio-header {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   padding-top: 3rem;
 }
 
 .portfolio-container {
   display: flex;
-  margin: 0px auto;
-  align-content: center;
-  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .portfolio-content {
-  display: inline-block;
-  width: 370px;
-  height: 370px;
-  margin: 0 auto;
-  /* padding-left: 5px;
-  padding-right: 5px; */
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #545454;
+  margin: 1%;
+  border-radius: 2%;
 }
 
 @keyframes appear {

@@ -11,8 +11,8 @@
     <div class="half-container description-container">
       <img src="../assets/laura_ca2.png" class="rounded-img" />
       <p class="about-description">
-        I’m a software engineer based in London, and I'm looking to pursue a
-        career in full-stack development.
+        I’m a software engineer based in London, looking to pursue a career in
+        full-stack development.
         <br /><br />
         Having graduated from the University of Birmingham, I then worked in
         client facing roles in finance and consulting out of New York.
