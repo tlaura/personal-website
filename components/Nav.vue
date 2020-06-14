@@ -6,7 +6,7 @@
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
           <a href="#">Contact</a>

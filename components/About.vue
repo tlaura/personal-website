@@ -11,21 +11,15 @@
     <div class="half-container description-container">
       <img src="../assets/laura_ca2.png" class="rounded-img" />
       <p class="about-description">
-        I’m a software engineer, currently based in London, looking to pursue a
-        career in full-stack development, to further develop my capabilities in
-        the latest web and mobile technologies.
+        I’m a software engineer based in London, and I'm looking to pursue a
+        career in full-stack development.
         <br /><br />
-        After graduating from the University of Birmingham, I worked in finance
-        and consulting in international businesses based out of New York. Having
-        progressed quickly, I made the decision to leave the world of finance
-        and make a career change into the multifaceted environment of
-        technology.
+        Having graduated from the University of Birmingham, I then worked in
+        client facing roles in finance and consulting out of New York.
         <br /><br />
-        I recently completed an advanced coding bootcamp (Progmasters), where I
-        thrived under the pressure of constantly learning new technologies and
-        solving complex problems.
-        <br /><br />
-        My main technologies are
+        In 2019, I made the decision to move into technology and have now
+        completed an advanced coding bootcamp (Progmasters). I have deep
+        experience in
         <strong>Python, Java Spring, VueJS </strong> and
         <strong>Angular</strong>.
       </p>
@@ -43,11 +37,11 @@ export default {
 </script>
 <style scoped>
 .rounded-img {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   border-radius: 12%;
   display: inline-block;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .header {
@@ -68,6 +62,7 @@ h1 {
   flex-direction: row;
   align-items: stretch;
   width: 100%;
+  /* background-color: #e0ebe8; */
 }
 .half-container {
   width: 50%;
@@ -89,5 +84,6 @@ h1 {
   font-size: 1.2em;
   text-align: left;
   display: inline;
+  color: #545454;
 }
 </style>

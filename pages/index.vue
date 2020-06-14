@@ -6,17 +6,22 @@
     <div id="about" class="container white">
       <About></About>
     </div>
+    <div id="portfolio" class="container dark-green">
+      <Portfolio></Portfolio>
+    </div>
   </div>
 </template>
 
 <script>
 import Home from '~/components/Home.vue'
 import About from '~/components/About.vue'
+import Portfolio from '~/components/Portfolio.vue'
 
 export default {
   components: {
     Home,
-    About
+    About,
+    Portfolio
   }
 }
 </script>
@@ -32,17 +37,14 @@ export default {
   text-align: center;
   padding: 0;
 }
+.dark-green {
+  background-color: #45b29a;
+  color: #e0ebe8;
+}
 .green {
   background-color: #e0ebe8;
 }
 .white {
-  /* background: linear-gradient(
-    to right,
-    #45b29a 0%,
-    #45b29a 50%,
-    #ffffff 50%,
-    #ffffff 100%
-  ); */
   background-color: #ffffff;
 }
 </style>
