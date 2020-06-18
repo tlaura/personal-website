@@ -99,13 +99,4 @@ h1 {
 .linkedin {
   right: 6rem;
 }
-
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 </style>

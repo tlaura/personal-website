@@ -11,7 +11,6 @@
           </div>
           <div class="title">
             <h3>Mars Autism Foundation</h3>
-
             <h5>
               <a
                 href="https://github.com/tlaura/mars"
@@ -63,7 +62,7 @@
       </div>
     </div>
     <div class="portfolio-nav">
-      <Nav color="#e0ebe8"></Nav>
+      <Nav color="#45b29a"></Nav>
     </div>
   </div>
 </template>
@@ -106,6 +105,7 @@ h5 {
   width: 400px;
   border-radius: 2%;
 }
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -113,6 +113,7 @@ h5 {
 
 .portfolio-nav {
   display: block;
+  padding-top: 150px;
   position: relative;
   left: 0;
   right: 0;

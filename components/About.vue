@@ -1,5 +1,5 @@
 <template>
-  <SplitLayout title="About me">
+  <SplitLayout title="About me" reverse>
     <div class="description-container">
       <img src="../assets/laura_ca2.png" class="rounded-img" />
       <p class="about-description">
