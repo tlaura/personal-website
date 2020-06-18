@@ -6,8 +6,11 @@
     <div id="about" class="container white">
       <About></About>
     </div>
-    <div id="portfolio" class="container dark-green">
+    <div id="portfolio" class="container green">
       <Portfolio></Portfolio>
+    </div>
+    <div id="contact" class="container green">
+      <Contact></Contact>
     </div>
   </div>
 </template>
@@ -16,21 +19,22 @@
 import Home from '~/components/Home.vue'
 import About from '~/components/About.vue'
 import Portfolio from '~/components/Portfolio.vue'
+import Contact from '~/components/Contact.vue'
 
 export default {
   components: {
     Home,
     About,
-    Portfolio
+    Portfolio,
+    Contact
   }
 }
 </script>
 
 <style scoped>
 .container {
-  margin: 0 auto;
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: stretch;

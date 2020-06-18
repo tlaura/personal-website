@@ -1,14 +1,6 @@
 <template>
-  <div class="about-container">
-    <div class="half-container green left-container">
-      <div class="header">
-        <h1>About me</h1>
-      </div>
-      <div class="about-nav">
-        <Nav color="#e0ebe8"></Nav>
-      </div>
-    </div>
-    <div class="half-container description-container">
+  <SplitLayout title="About me">
+    <div class="description-container">
       <img src="../assets/laura_ca2.png" class="rounded-img" />
       <p class="about-description">
         I’m a software engineer based in London, looking to pursue a career in
@@ -24,14 +16,15 @@
         <strong>Angular</strong>.
       </p>
     </div>
-  </div>
+  </SplitLayout>
 </template>
 
 <script>
-import Nav from '~/components/Nav'
+import SplitLayout from '~/components/SplitLayout'
+
 export default {
   components: {
-    Nav
+    SplitLayout
   }
 }
 </script>
@@ -40,50 +33,20 @@ export default {
   height: 300px;
   width: 300px;
   border-radius: 12%;
-  display: inline-block;
   margin-bottom: 80px;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-grow: 1;
-}
-h1 {
-  font-weight: 700;
-  font-size: 80px;
-  margin-bottom: 10px;
-  color: #e0ebe8;
-}
-.about-container {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  width: 100%;
-  /* background-color: #e0ebe8; */
-}
-.half-container {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.left-container {
-  justify-content: space-between;
-}
-.green {
-  background-color: #45b29a;
-}
 .description-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 0 200px;
 }
+
 .about-description {
   font-size: 1.2em;
   text-align: left;
-  display: inline;
   color: #545454;
 }
 </style>

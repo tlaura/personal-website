@@ -11,9 +11,9 @@
     <div class="home-container">
       <div class="text">
         <h1>Hi, I'm Laura,</h1>
-        <h4>
+        <h2>
           a Full-Stack Software Engineer.
-        </h4>
+        </h2>
       </div>
     </div>
     <div class="home-nav">

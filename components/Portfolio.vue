@@ -4,7 +4,7 @@
       <h1>Portfolio</h1>
     </div>
     <div class="portfolio-container">
-      <div class="portfolio-content">
+      <div class="portfolio-content portfolio-content-left">
         <div class="content-title">
           <div>
             <img src="../assets/marsproject.png" class="project-img" />
@@ -22,14 +22,39 @@
             </h5>
           </div>
         </div>
-
-        <div>
-          dfabkwelfndksfsadfln Having graduated from the University of
-          Birmingham, I then worked in client facing roles in finance and
-          consulting out of New York.
+        <div class="content-description">
+          Consulted with a non-profit to build a web platform connecting
+          children living with autism to support services during my time at
+          Progmasters. Built using a RESTful Java Spring backend and an Angular
+          9 / TypeScript frontend.
+          <br />
+          <br />
+          <ul>
+            <li>
+              Collaborated with a 6-person Scrum team incl. 3 developers and the
+              client’s product owner
+            </li>
+            <li>
+              Implemented role-based authentication with JWT and configured CORS
+              policies
+            </li>
+            <li>
+              Automated deployment by setting up CI/CD pipeline in Gitlab
+            </li>
+            <li>
+              Reduced text-search time from minutes to seconds using concurrency
+              (Futures)
+            </li>
+            <li>Achieved 75% JUnit test coverage using TDD</li>
+            <li>Integrated Google Maps and Google analytics APIs</li>
+            <li>
+              Managed code versioning using Git feature branches and pull
+              requests
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="portfolio-content">
+      <div class="portfolio-content portfolio-content-right">
         <div>
           <div class="content-title">
             <img src="../assets/codenames2.png" class="project-img" />
@@ -61,6 +86,13 @@ h5 {
   font-style: italic;
 }
 
+.content-description {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 1rem;
+}
+
 .title {
   padding-top: 2rem;
   display: flex;
@@ -77,7 +109,6 @@ h5 {
 .main-container {
   display: flex;
   flex-direction: column;
-  width: 98%;
 }
 
 .portfolio-nav {
@@ -112,22 +143,20 @@ h1 {
   display: flex;
   flex-direction: column;
   color: #545454;
-  margin: 1.5%;
   border-radius: 1%;
+}
+.portfolio-content-left {
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.portfolio-content-right {
+  margin-left: 1rem;
+  margin-right: 2rem;
 }
 
 .content-title {
   display: flex;
   flex-direction: row;
   padding: 1rem;
-}
-
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 </style>
