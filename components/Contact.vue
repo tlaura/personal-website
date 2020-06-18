@@ -35,9 +35,9 @@ a:visited {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 0 100px;
-  font-size: 1.2em;
+  justify-content: start;
+  padding: 250px 100px;
+  font-size: 1.4em;
   text-align: left;
   color: #545454;
 }

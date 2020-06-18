@@ -22,35 +22,19 @@
           </div>
         </div>
         <div class="content-description">
-          Consulted with a non-profit to build a web platform connecting
-          children living with autism to support services during my time at
-          Progmasters. Built using a RESTful Java Spring backend and an Angular
-          9 / TypeScript frontend.
+          Built a web platform for a non-profit connecting children living with
+          autism to support services.
           <br />
           <br />
-          <ul>
-            <li>
-              Collaborated with a 6-person Scrum team incl. 3 developers and the
-              client’s product owner
-            </li>
-            <li>
-              Implemented role-based authentication with JWT and configured CORS
-              policies
-            </li>
-            <li>
-              Automated deployment by setting up CI/CD pipeline in Gitlab
-            </li>
-            <li>
-              Reduced text-search time from minutes to seconds using concurrency
-              (Futures)
-            </li>
-            <li>Achieved 75% JUnit test coverage using TDD</li>
-            <li>Integrated Google Maps and Google analytics APIs</li>
-            <li>
-              Managed code versioning using Git feature branches and pull
-              requests
-            </li>
-          </ul>
+          <u>Technologies:</u>
+          <br />
+          <br />
+          <p>
+            <strong>
+              Java (Spring), TypeScript (Angular), MySQL, JUnit/Mockito, Gilab
+              CI/CD
+            </strong>
+          </p>
         </div>
       </div>
       <div class="portfolio-content portfolio-content-right">
@@ -72,29 +56,19 @@
         </div>
         <div class="content-description">
           Built a multiplayer online game based on a boardgame in a Scrum team
-          of 3 developers using VueJS / Typescript on the frontend and RESTful
-          Java Spring backend.
+          of 3 developers.
           <br />
           <br />
-          <ul>
-            <li>
-              Implemented chat service with websockets
-            </li>
-            <li>
-              Refactored frontend codebase to follow Vuex best practices
-            </li>
-            <li>
-              Automated deployment by setting up CI/CD pipeline in Github
-              Actions
-            </li>
-            <li>
-              Designed and developed backend logic flow and data models
-            </li>
-            <li>
-              Managed code versioning using Git feature branches and pull
-              requests
-            </li>
-          </ul>
+          <br />
+          <u>Technologies:</u>
+          <br />
+          <br />
+          <p>
+            <strong
+              >Java (Spring), TypeScript (VueJS), MySQL, JUnit, AWS (EC2),
+              Gitlab CI/CD</strong
+            >
+          </p>
         </div>
       </div>
     </div>
@@ -114,8 +88,12 @@ export default {
 }
 </script>
 <style scoped>
+p {
+  text-indent: 50px;
+}
 h3 {
   font-weight: 700;
+  font-size: 2rem;
 }
 
 h5 {
@@ -180,9 +158,11 @@ h1 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  color: #545454;
+  color: #45b29a;
   border-radius: 1%;
+  font-size: 1.2rem;
 }
+
 .portfolio-content-left {
   margin-left: 2rem;
   margin-right: 1rem;

@@ -1,7 +1,7 @@
 <template>
   <SplitLayout title="About me" reverse>
     <div class="description-container">
-      <img src="../assets/laura_ca2.png" class="rounded-img" />
+      <img src="../assets/lt3.jpg" class="rounded-img" />
       <p class="about-description">
         I’m a software engineer based in London, looking to pursue a career in
         full-stack development.
@@ -30,9 +30,9 @@ export default {
 </script>
 <style scoped>
 .rounded-img {
-  height: 300px;
+  height: 250px;
   width: 300px;
-  border-radius: 12%;
+  border-radius: 8%;
   margin-bottom: 80px;
 }
 

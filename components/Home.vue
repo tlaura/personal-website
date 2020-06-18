@@ -89,10 +89,11 @@ h1 {
 }
 
 .social-logo {
-  position: fixed;
+  position: absolute;
   top: 1rem;
   display: flex;
 }
+
 .github {
   right: 1rem;
 }
