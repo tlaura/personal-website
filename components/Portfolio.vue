@@ -5,10 +5,24 @@
     </div>
     <div class="portfolio-container">
       <div class="portfolio-content">
-        First Project
-        <div>
-          adlihfawfdjkns
+        <div class="content-title">
+          <div>
+            <img src="../assets/marsproject.png" class="project-img" />
+          </div>
+          <div class="title">
+            <h3>Mars Autism Foundation</h3>
+
+            <h5>
+              <a
+                href="https://github.com/tlaura/mars"
+                target="_blank"
+                rel="noopener noreferrer"
+                >github.com/tlaura/mars</a
+              >
+            </h5>
+          </div>
         </div>
+
         <div>
           dfabkwelfndksfsadfln Having graduated from the University of
           Birmingham, I then worked in client facing roles in finance and
@@ -16,7 +30,11 @@
         </div>
       </div>
       <div class="portfolio-content">
-        Second project
+        <div>
+          <div class="content-title">
+            <img src="../assets/codenames2.png" class="project-img" />
+          </div>
+        </div>
       </div>
     </div>
     <div class="portfolio-nav">
@@ -35,6 +53,27 @@ export default {
 }
 </script>
 <style scoped>
+h3 {
+  font-weight: 700;
+}
+
+h5 {
+  font-style: italic;
+}
+
+.title {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.project-img {
+  height: 250px;
+  width: 400px;
+  border-radius: 2%;
+}
 .main-container {
   display: flex;
   flex-direction: column;
@@ -73,8 +112,14 @@ h1 {
   display: flex;
   flex-direction: column;
   color: #545454;
-  margin: 1%;
-  border-radius: 2%;
+  margin: 1.5%;
+  border-radius: 1%;
+}
+
+.content-title {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
 }
 
 @keyframes appear {
