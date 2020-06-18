@@ -9,7 +9,7 @@
           <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>

@@ -10,7 +10,7 @@
             <img src="../assets/marsproject.png" class="project-img" />
           </div>
           <div class="title">
-            <h3>Mars Autism Foundation</h3>
+            <h3>Mars Autism Institution</h3>
             <h5>
               <a
                 href="https://github.com/tlaura/mars"
@@ -54,10 +54,47 @@
         </div>
       </div>
       <div class="portfolio-content portfolio-content-right">
-        <div>
-          <div class="content-title">
+        <div class="content-title">
+          <div>
             <img src="../assets/codenames2.png" class="project-img" />
           </div>
+          <div class="title">
+            <h3>Codenames</h3>
+            <h5>
+              <a
+                href="https://github.com/CaIlbackCats/codenames"
+                target="_blank"
+                rel="noopener noreferrer"
+                >github.com/CallbackCats/codenames</a
+              >
+            </h5>
+          </div>
+        </div>
+        <div class="content-description">
+          Built a multiplayer online game based on a boardgame in a Scrum team
+          of 3 developers using VueJS / Typescript on the frontend and RESTful
+          Java Spring backend.
+          <br />
+          <br />
+          <ul>
+            <li>
+              Implemented chat service with websockets
+            </li>
+            <li>
+              Refactored frontend codebase to follow Vuex best practices
+            </li>
+            <li>
+              Automated deployment by setting up CI/CD pipeline in Github
+              Actions
+            </li>
+            <li>
+              Designed and developed backend logic flow and data models
+            </li>
+            <li>
+              Managed code versioning using Git feature branches and pull
+              requests
+            </li>
+          </ul>
         </div>
       </div>
     </div>

@@ -2,8 +2,7 @@
   <SplitLayout title="Contact me">
     <div class="contact-container">
       <p>
-        I'm available for full-time employment or if you want to collaborate,
-        feel free to contact me.
+        I'm currently available for full-time employment.
       </p>
       <br />
       <br />
