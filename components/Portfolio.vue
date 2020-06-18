@@ -64,10 +64,10 @@
           <br />
           <br />
           <p>
-            <strong
-              >Java (Spring), TypeScript (VueJS), MySQL, JUnit, AWS (EC2),
-              Gitlab CI/CD</strong
-            >
+            <strong>
+              Java (Spring), TypeScript (VueJS), MySQL, JUnit, AWS (EC2), Github
+              Actions
+            </strong>
           </p>
         </div>
       </div>

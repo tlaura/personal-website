@@ -10,8 +10,8 @@
         client facing roles in finance and consulting out of New York.
         <br /><br />
         In 2019, I made the decision to move into technology and have now
-        completed an advanced coding bootcamp (Progmasters). I have deep
-        experience in
+        completed an advanced coding bootcamp (Progmasters). I have experience
+        in
         <strong>Python, Java Spring, VueJS </strong> and
         <strong>Angular</strong>.
       </p>
@@ -30,7 +30,7 @@ export default {
 </script>
 <style scoped>
 .rounded-img {
-  height: 250px;
+  height: 245px;
   width: 300px;
   border-radius: 8%;
   margin-bottom: 80px;
