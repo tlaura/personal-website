@@ -27,9 +27,7 @@
           autism to support services.
           <br />
           <br />
-          <br />
           <u>Technologies:</u>
-          <br />
           <br />
           <p>
             <strong>
@@ -62,9 +60,7 @@
           of 3 developers.
           <br />
           <br />
-          <br />
           <u>Technologies:</u>
-          <br />
           <br />
           <p>
             <strong>
