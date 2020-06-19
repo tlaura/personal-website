@@ -1,10 +1,15 @@
 <template>
   <div>
     <div class="social-logo linkedin">
-      <fa :icon="faLinkedin" />
+      <a href="https://www.linkedin.com/in/laura-tarczi/" target="_blank">
+        <fa :icon="faLinkedin"> </fa>
+      </a>
     </div>
+
     <div class="social-logo github">
-      <fa :icon="faGithub" />
+      <a href="https://github.com/tlaura" target="_blank">
+        <fa :icon="faGithub"></fa
+      ></a>
     </div>
   </div>
 </template>
@@ -26,14 +31,19 @@ export default {
 </script>
 
 <style scoped>
-.social-logo > svg {
+a,
+a:visited {
+  color: #45b29a;
+}
+
+.social-logo {
   font-size: 3.5rem;
   cursor: pointer;
   margin-left: 1.5rem;
   transition: 1.5;
 }
 
-.social-logo > svg:hover {
+.social-logo:hover {
   font-size: 3.8rem;
 }
 

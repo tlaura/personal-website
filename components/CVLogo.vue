@@ -1,6 +1,9 @@
 <template>
   <div>
-    <a href="#" target="_blank">
+    <a
+      href="https://drive.google.com/file/d/1geeZ1kDWuuvznfhfBEihvKK5jrXU1W9v/view?usp=sharing"
+      target="_blank"
+    >
       <div class="cv-link">
         CV
       </div>

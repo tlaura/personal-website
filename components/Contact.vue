@@ -2,6 +2,9 @@
   <SplitLayout title="Contact me">
     <div class="contact-container">
       <p>
+        If you'd like to connect, feel free to get in touch.
+      </p>
+      <p>
         I'm currently available for full-time employment.
       </p>
       <br />
@@ -16,10 +19,14 @@
           <CVLogo></CVLogo>
         </div>
         <div class="social-logo linkedin">
-          <fa :icon="faLinkedin" />
+          <a href="https://www.linkedin.com/in/laura-tarczi/" target="_blank">
+            <fa :icon="faLinkedin"></fa>
+          </a>
         </div>
         <div class="social-logo github">
-          <fa :icon="faGithub" />
+          <a href="https://github.com/tlaura" target="_blank">
+            <fa :icon="faGithub"></fa>
+          </a>
         </div>
       </div>
     </div>
@@ -52,25 +59,31 @@ h1 {
   color: #545454;
 }
 
+p {
+  margin-bottom: 30px;
+}
+
 a,
 a:visited {
   color: #45b29a;
 }
+
 .contact-container {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: start;
   padding: 250px 100px;
-  font-size: 1.4em;
+  font-size: 1.3em;
   text-align: left;
   color: #545454;
 }
+
 .contact-links {
   display: flex;
 }
 
-.social-logo > svg {
+.social-logo {
   font-size: 3.7rem;
   cursor: pointer;
   margin-left: 1.5rem;
@@ -78,7 +91,7 @@ a:visited {
   color: #45b29a;
 }
 
-.social-logo > svg:hover {
+.social-logo:hover {
   font-size: 3.8rem;
 }
 
@@ -95,5 +108,6 @@ a:visited {
 
 .cv-logo {
   z-index: 11;
+  margin-top: 6px;
 }
 </style>

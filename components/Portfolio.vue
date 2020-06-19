@@ -11,6 +11,7 @@
           </div>
           <div class="title">
             <h3>Mars Autism Institution</h3>
+            <br />
             <h5>
               <a
                 href="https://github.com/tlaura/mars"
@@ -24,6 +25,7 @@
         <div class="content-description">
           Built a web platform for a non-profit connecting children living with
           autism to support services.
+          <br />
           <br />
           <br />
           <u>Technologies:</u>
@@ -44,6 +46,7 @@
           </div>
           <div class="title">
             <h3>Codenames</h3>
+            <br />
             <h5>
               <a
                 href="https://github.com/CaIlbackCats/codenames"
@@ -88,6 +91,9 @@ export default {
 }
 </script>
 <style scoped>
+h1 {
+  padding-bottom: 60px;
+}
 p {
   text-indent: 50px;
 }
@@ -116,8 +122,8 @@ h5 {
 }
 
 .project-img {
-  height: 250px;
-  width: 400px;
+  height: 200px;
+  width: 350px;
   border-radius: 2%;
 }
 
@@ -164,12 +170,15 @@ h1 {
 }
 
 .portfolio-content-left {
-  margin-left: 2rem;
-  margin-right: 1rem;
+  margin-left: 8rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
 }
+
 .portfolio-content-right {
-  margin-left: 1rem;
-  margin-right: 2rem;
+  margin-left: 5rem;
+  margin-right: 8rem;
+  margin-bottom: 2rem;
 }
 
 .content-title {
