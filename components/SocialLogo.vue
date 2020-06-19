@@ -37,14 +37,14 @@ a:visited {
 }
 
 .social-logo {
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   cursor: pointer;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   transition: 1.5;
 }
 
 .social-logo:hover {
-  font-size: 3.8rem;
+  font-size: 3.1rem;
 }
 
 .social-logo {
@@ -57,6 +57,6 @@ a:visited {
   right: 1rem;
 }
 .linkedin {
-  right: 6rem;
+  right: 5rem;
 }
 </style>

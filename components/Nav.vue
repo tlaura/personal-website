@@ -28,26 +28,19 @@ export default {
 </script>
 
 <style scoped>
-/* .main-nav {
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-} */
 ul {
   list-style: none;
-  padding: 36px 0;
+  padding: 32px 0;
   text-align: center;
 }
 .main-nav ul li {
   display: inline;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .main-nav ul li:before {
   content: '/';
-  padding: 0 12px 0 9px;
+  padding: 0 10px 0 7px;
 }
 
 .main-nav ul li:first-child:before {
@@ -63,6 +56,6 @@ ul {
 
 .main-nav ul li a:hover {
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid white;
+  border-bottom: 2px solid white;
 }
 </style>

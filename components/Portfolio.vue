@@ -31,7 +31,7 @@
           <br />
           <p>
             <strong>
-              Java (Spring), TypeScript (Angular), MySQL, JUnit/Mockito, Gilab
+              Java (Spring), TypeScript (Angular), MySQL, JUnit/Mockito, Gitlab
               CI/CD
             </strong>
           </p>
@@ -88,15 +88,18 @@ export default {
 </script>
 <style scoped>
 h1 {
-  padding-bottom: 60px;
+  font-weight: 700;
+  font-size: 65px;
+  margin-bottom: 70px;
 }
 
 p {
-  text-indent: 50px;
+  text-indent: 20px;
 }
+
 h3 {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 h5 {
@@ -111,7 +114,7 @@ h5 {
 }
 
 .title {
-  padding-top: 2rem;
+  padding-top: 1rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -119,8 +122,8 @@ h5 {
 }
 
 .project-img {
-  height: 200px;
-  width: 350px;
+  height: 150px;
+  width: 250px;
   border-radius: 2%;
 }
 
@@ -131,22 +134,16 @@ h5 {
 
 .portfolio-nav {
   display: block;
-  padding-top: 150px;
+  padding-top: 90px;
   position: relative;
   left: 0;
   right: 0;
   bottom: 0;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 80px;
-  margin-bottom: 10px;
-}
-
 .portfolio-header {
-  padding-bottom: 2rem;
-  padding-top: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
 }
 
 .portfolio-container {
@@ -163,19 +160,19 @@ h1 {
   flex-direction: column;
   color: #45b29a;
   border-radius: 1%;
-  font-size: 1.2rem;
+  font-size: 0.95rem;
 }
 
 .portfolio-content-left {
   margin-left: 8rem;
-  margin-right: 5rem;
-  margin-bottom: 2rem;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
 }
 
 .portfolio-content-right {
-  margin-left: 5rem;
+  margin-left: 4rem;
   margin-right: 8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .content-title {

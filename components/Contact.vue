@@ -2,12 +2,11 @@
   <SplitLayout title="Contact me">
     <div class="contact-container">
       <p>
-        If you'd like to connect, feel free to get in touch.
-      </p>
-      <p>
         I'm currently available for full-time employment.
       </p>
-      <br />
+      <p>
+        If you'd like to connect, feel free to get in touch.
+      </p>
       <br />
       <h3>Laura Tarczi</h3>
       <br />
@@ -60,7 +59,7 @@ h1 {
 }
 
 p {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 a,
@@ -73,8 +72,8 @@ a:visited {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  padding: 250px 100px;
-  font-size: 1.3em;
+  padding: 250px 80px;
+  font-size: 1em;
   text-align: left;
   color: #545454;
 }
@@ -84,30 +83,30 @@ a:visited {
 }
 
 .social-logo {
-  font-size: 3.7rem;
+  font-size: 3.1rem;
   cursor: pointer;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   transition: 1.5;
   color: #45b29a;
 }
 
 .social-logo:hover {
-  font-size: 3.8rem;
+  font-size: 3.2rem;
 }
 
 .github {
   position: absolute;
-  padding-left: 8.7rem;
+  padding-left: 7.8rem;
 }
 
 .linkedin {
   position: absolute;
-  padding-left: 3.7rem;
+  padding-left: 3.5rem;
   z-index: 10;
 }
 
 .cv-logo {
   z-index: 11;
-  margin-top: 4px;
+  margin-top: 2px;
 }
 </style>

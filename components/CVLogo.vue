@@ -17,24 +17,24 @@ export default {}
 
 <style scoped>
 .cv-link {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
   border-radius: 50%;
   color: #e0ebe8;
-  line-height: 3.6rem;
+  line-height: 3rem;
   text-align: center;
   background-color: #45b29a;
-  width: 3.6rem;
-  height: 3.6rem;
+  width: 3rem;
+  height: 3rem;
   transition: 1.5;
   position: absolute;
 }
 
 .cv-link:hover {
-  font-size: 1.9rem;
-  line-height: 3.7rem;
-  width: 3.7rem;
-  height: 3.7rem;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  width: 3.2rem;
+  height: 3.2rem;
 }
 
 a,

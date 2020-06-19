@@ -6,9 +6,9 @@
     <div class="home-container">
       <div class="text">
         <h1>Hi, I'm Laura,</h1>
-        <h2>
+        <h3>
           a Full-Stack Software Engineer.
-        </h2>
+        </h3>
       </div>
     </div>
     <div class="home-nav">
@@ -40,9 +40,13 @@ export default {
 
 h1 {
   font-weight: 700;
-  font-size: 80px;
-  margin-bottom: 10px;
+  font-size: 65px;
+  margin-bottom: 7px;
   /* color: #45b29a; */
+}
+
+h3 {
+  font-size: 20px;
 }
 
 .home-container {
@@ -54,7 +58,7 @@ h1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  max-width: 650px;
+  max-width: 550px;
   margin-bottom: 10vh;
 }
 .text > h4 {
