@@ -94,6 +94,7 @@ export default {
 h1 {
   padding-bottom: 60px;
 }
+
 p {
   text-indent: 50px;
 }

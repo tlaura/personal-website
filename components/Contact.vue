@@ -108,6 +108,6 @@ a:visited {
 
 .cv-logo {
   z-index: 11;
-  margin-top: 6px;
+  margin-top: 4px;
 }
 </style>
