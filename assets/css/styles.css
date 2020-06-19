@@ -2,3 +2,7 @@ body {
   font-family: 'Rubik', sans-serif;
   color: #45b29a;
 }
+
+html {
+  scroll-behavior: smooth;
+}
