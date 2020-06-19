@@ -11,21 +11,39 @@
       <a href="mailto:tarczi.laura.01@gmail.com">tarczi.laura.01@gmail.com</a>
       <br />
       <br />
-      <a href="#" target="_blank">
-        <div class="cv-link">
-          CV
+      <div class="contact-links">
+        <div class="cv-logo">
+          <CVLogo></CVLogo>
         </div>
-      </a>
+        <div class="social-logo linkedin">
+          <fa :icon="faLinkedin" />
+        </div>
+        <div class="social-logo github">
+          <fa :icon="faGithub" />
+        </div>
+      </div>
     </div>
   </SplitLayout>
 </template>
 
 <script>
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import SplitLayout from '~/components/SplitLayout'
+import CVLogo from '~/components/CVLogo'
 
 export default {
   components: {
-    SplitLayout
+    SplitLayout,
+    CVLogo
+  },
+  computed: {
+    faLinkedin() {
+      return faLinkedin
+    },
+    faGithub() {
+      return faGithub
+    }
   }
 }
 </script>
@@ -48,16 +66,34 @@ a:visited {
   text-align: left;
   color: #545454;
 }
+.contact-links {
+  display: flex;
+}
 
-.cv-link {
-  font-size: 2rem;
-  font-weight: 700;
-  border-radius: 50%;
-  color: #e0ebe8;
-  line-height: 3.8rem;
-  text-align: center;
-  background-color: #45b29a;
-  width: 3.8rem;
-  height: 3.8rem;
+.social-logo > svg {
+  font-size: 3.7rem;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  transition: 1.5;
+  color: #45b29a;
+}
+
+.social-logo > svg:hover {
+  font-size: 3.8rem;
+}
+
+.github {
+  position: absolute;
+  padding-left: 8.7rem;
+}
+
+.linkedin {
+  position: absolute;
+  padding-left: 3.7rem;
+  z-index: 10;
+}
+
+.cv-logo {
+  z-index: 11;
 }
 </style>
