@@ -34,7 +34,7 @@ export default {
 <style scoped>
 .container {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: stretch;

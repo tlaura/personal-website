@@ -47,7 +47,7 @@
             <br />
             <h5>
               <a
-                href="https://github.com/CaIlbackCats/codenames"
+                href="https://github.com/CallbackCats/codenames"
                 target="_blank"
                 rel="noopener noreferrer"
                 >github.com/CallbackCats/codenames</a
@@ -134,7 +134,7 @@ h5 {
 
 .portfolio-nav {
   display: block;
-  padding-top: 90px;
+  padding-top: 1.5rem;
   position: relative;
   left: 0;
   right: 0;

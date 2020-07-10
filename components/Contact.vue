@@ -33,8 +33,8 @@
 </template>
 
 <script>
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
 import SplitLayout from '~/components/SplitLayout'
 import CVLogo from '~/components/CVLogo'
 

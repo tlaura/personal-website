@@ -51,7 +51,7 @@ export default {
       {
         component: 'fa',
         imports: [
-          //import whole set
+          // import whole set
           {
             set: '@fortawesome/free-solid-svg-icons',
             icons: ['fas']
