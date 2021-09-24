@@ -1,7 +1,5 @@
 # portfolio
 
-> My impeccable Nuxt.js project
-
 ## Build Setup
 
 ```bash
