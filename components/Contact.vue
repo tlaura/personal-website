@@ -1,12 +1,7 @@
 <template>
   <SplitLayout title="Contact me">
     <div class="contact-container">
-      <p>
-        I'm currently available for full-time employment.
-      </p>
-      <p>
-        If you'd like to connect, feel free to get in touch.
-      </p>
+      <p>If you'd like to connect, feel free to get in touch.</p>
       <br />
       <h3>Laura Tarczi</h3>
       <br />

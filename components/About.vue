@@ -2,19 +2,25 @@
   <SplitLayout title="About me" reverse>
     <div class="description-container">
       <img src="../assets/lt3.jpg" class="rounded-img" />
-      <p class="about-description">
-        I’m a software engineer based in London, looking to pursue a career in
-        full-stack development.
+      <div class="about-description">
+        I’m a software engineer based in London, looking to progress in a
+        fast-moving, collaborative environment.
         <br /><br />
         Having graduated from the University of Birmingham, I then worked in
         client facing roles in finance and consulting out of New York.
         <br /><br />
-        In 2019, I made the decision to move into technology and have now
-        completed an advanced coding bootcamp (Progmasters). I have experience
-        in
-        <strong>Python, Java Spring, VueJS </strong> and
-        <strong>Angular</strong>.
-      </p>
+        In 2019, I made the decision to move into technology and have since
+        gained experience as a full-stack developer at a fintech trading firm
+        and currently at a global software consultancy.
+        <br /><br />
+        My key skills:
+        <br />
+        <ul>
+          <li>Infrastructure: <strong>AWS, Azure</strong></li>
+          <li>Backend: <strong>Python, Java</strong></li>
+          <li>Frontend: <strong>React, VueJS</strong></li>
+        </ul>
+      </div>
     </div>
   </SplitLayout>
 </template>

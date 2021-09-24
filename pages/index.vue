@@ -1,13 +1,10 @@
 <template>
   <div>
-    <div class="container green">
+    <div id="home" class="container green">
       <Home></Home>
     </div>
     <div id="about" class="container white">
       <About></About>
-    </div>
-    <div id="portfolio" class="container green">
-      <Portfolio></Portfolio>
     </div>
     <div id="contact" class="container green">
       <Contact></Contact>
@@ -18,14 +15,12 @@
 <script>
 import Home from '~/components/Home.vue'
 import About from '~/components/About.vue'
-import Portfolio from '~/components/Portfolio.vue'
 import Contact from '~/components/Contact.vue'
 
 export default {
   components: {
     Home,
     About,
-    Portfolio,
     Contact
   }
 }
