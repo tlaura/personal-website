@@ -36,10 +36,10 @@ export default {
 </script>
 <style scoped>
 .rounded-img {
-  height: 195px;
-  width: 240px;
+  height: 21.5vh;
+  width: 13.4vw;
   border-radius: 8%;
-  margin-bottom: 60px;
+  margin-bottom: 3.5em;
 }
 
 .description-container {
@@ -48,7 +48,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 155px;
+  padding: 0 18%;
 }
 
 .about-description {
